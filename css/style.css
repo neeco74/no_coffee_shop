@@ -12,17 +12,20 @@ html {
 }
 
 body {
-    height: 100%;
+    
+    min-height: 100%;
     background: linear-gradient(rgba(47,23,15,.65),rgba(47,23,15,.65)),url(../img/bg.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     font-size: 14px;
     font-family: Lora;
+    position: relative;
+    padding-bottom: 100px;
 }
 
 .header {
-    margin: 100px auto;
+    margin: 100px auto 60px;
     width:80%;
     text-align:center;
 }
@@ -74,17 +77,30 @@ nav > ul > li {
 
 nav a {
     text-decoration: none;
-    color : rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, .7);
     font-size: 18px;
     text-transform: uppercase;
     font-family: Raleway;
 }
 
+nav a:hover:not(.active) {
+    color: #837570;
+
+}
+
+nav a:active {
+    color: rgba(230, 167, 86, .9);
+
+}
+.active {
+    color: rgba(230, 167, 86, .9);
+
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SECTION 1 */
 
 .section {
-    margin-top:50px;
+    margin-top:100px;
 
 }
 
@@ -277,8 +293,8 @@ nav a {
 
 .delicious-text-1  {
 
-    position: relative;
-    top: 50px;
+    position: absolute;
+    top: -80px;
     
     background-color: rgba(255, 255, 255, .85);
     padding: 40px;
@@ -295,4 +311,21 @@ nav a {
     font-size:16px;
     font-weight: 100;
     line-height: 1.75;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOOTER */
+
+footer {
+    background-color: rgba(47,23,15,.9);
+    height: 120px;
+
+    position: absolute;
+    bottom:0px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.7)
 }
