@@ -1,0 +1,298 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(rgba(47,23,15,.65),rgba(47,23,15,.65)),url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-size: 14px;
+    font-family: Lora;
+}
+
+.header {
+    margin: 100px auto;
+    width:80%;
+    text-align:center;
+}
+.titre-header-1  {
+
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: Raleway;
+    color: #e6a756;
+    font-size: 30px;
+    font-weight: 800;
+}
+.titre-header-2  {
+
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: Raleway;
+    font-size: 78px;
+    color: #fff;
+    font-weight: 100;
+
+}
+
+
+nav {
+    background-color: rgba(47,23,15,.85);
+    height: 100px;
+    width: 100%;
+    margin: 0px auto;
+
+    font-weight: 800;
+    display:flex;
+    align-items: center;
+}
+
+nav > ul {
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+nav > ul > li {
+
+    display: inline-block;
+    margin:10px;
+    padding:10px;
+}
+
+nav a {
+    text-decoration: none;
+    color : rgba(255, 255, 255, .7);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Raleway;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SECTION 1 */
+
+.section {
+    margin-top:50px;
+
+}
+
+.container {
+    width: 80%;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.intro {
+    position:relative;
+    height:100%;
+}
+
+.intro-img {
+    float:right;
+    width:70%;
+}
+
+.intro-text {
+    position:absolute;
+    top: 20px;
+    left:0px;
+    background-color: rgba(255, 255, 255, .85);;
+    width:60%;
+    padding: 40px;
+    text-align: center;
+    z-index:5;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+
+.intro-text-header-1 {
+    display:block;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-weight: 800;
+}
+.intro-text-header-2 {
+    display:block;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-weight: 100;
+    font-size:44px;
+}
+
+.intro-text-p {
+    width:100%;
+    font-size: 16px;
+    line-height: 1.75;
+}
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: ""
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SECTION 2 */
+
+.section-page-2 {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(230, 167, 86, .9);
+    height:auto;
+}
+
+.section2-div-text {
+
+    width:90%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, .85);
+    padding:40px;
+    text-align: center;
+}
+
+.intro-text-p {
+
+
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SECTION 3 */
+
+.section-page-3 {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+.about {
+    position:relative;
+    height:auto;
+}
+.img-about {
+
+    width:100%;    
+}
+
+.about-text {
+    position:relative;
+    top: -50px;
+    left:15%;
+    background-color: rgba(255, 255, 255, .85);
+    width:70%;
+    padding: 40px;
+    
+    z-index:5;
+    line-height: 1.75;
+    font-size: 16px;
+}
+.about-text > p {
+
+    margin-bottom:20px;
+
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SECTION 4 */
+
+.center {
+    text-align:center;
+}
+.blended {
+
+    position:relative;
+
+}
+.rounded2 {
+    border-radius: 5px;
+}
+.img-blended {
+    width: 70%;
+    margin:auto;
+}
+
+.blended-text-1  {
+
+    position: relative;
+    top: 50px;
+    left:50%;
+    background-color: rgba(255, 255, 255, .85);
+    padding: 40px;
+    width:50%;
+}
+.blended-text-2  {
+
+    position: relative;
+    top:-60px;
+    background-color: rgba(255, 255, 255, .85);
+    padding: 40px;
+    width:70%;
+    font-size:16px;
+    font-weight: 100;
+    line-height: 1.75;
+}
+.intro-text-header-3 {
+    display:block;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-weight: 800;
+    font-size:16px;
+}
+.intro-text-header-4 {
+    display:block;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-weight: 100;
+    font-size:40px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SECTION 5 */
+
+.delicious {
+
+    position:relative;
+
+}
+
+
+.img-delicious {
+    width: 70%;
+    margin:auto;
+}
+
+.delicious-text-1  {
+
+    position: relative;
+    top: 50px;
+    
+    background-color: rgba(255, 255, 255, .85);
+    padding: 40px;
+    width: 50%;
+}
+
+.delicious-text-2  {
+    position: relative;
+    top:-60px;
+    left:50%;
+    background-color: rgba(255, 255, 255, .85);
+    padding: 40px;
+    width:50%;
+    font-size:16px;
+    font-weight: 100;
+    line-height: 1.75;
+}
